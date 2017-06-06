@@ -1,0 +1,41 @@
+{
+    "doctors": [{
+        "Killigrew": {
+            "first_name": "Johan",
+            "last_name": "Killigrew",
+            "speciality": "Pediatrics"
+        },
+
+        "Lerma" : {
+            "first_name": "Tamela",
+            "last_name": "Lerma",
+            "speciality": "Dermatology"
+        },
+
+        "Corley" : {
+            "first_name": "Morgan",
+            "last_name": "Corley",
+            "speciality": "Nuerosurgeon"
+        }
+    }],
+    "patients": [{
+
+            "first_name": "Margot",
+            "last_name": "Svenson",
+            "ailment": "Arthritis",
+            "doctor_id": "Killigrew"
+        },
+        {
+            "first_name": "Kenny",
+            "last_name": "Lerma",
+            "ailment": "butt face",
+            "doctor_id": "Lerma"
+        },
+        {
+            "first_name": "Jack",
+            "last_name": "Ass",
+            "ailment": "old man disease",
+            "doctor_id": "Corley"
+        }
+    ]
+}

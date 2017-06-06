@@ -1,0 +1,9 @@
+<h3>Patients</h3>
+<div class="flex-me">
+    <div ng-repeat="patients in currentPatient" class="size-me">
+        <div><strong>Dr. {{patients.doctor_id}} patient list:</strong>
+            <p>Name: {{patients.first_name}} {{patients.last_name}}</p>
+            <p>Ailment: {{patients.ailment}}</p>
+        </div>
+    </div>
+</div>

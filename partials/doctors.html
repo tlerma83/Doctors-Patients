@@ -1,0 +1,9 @@
+<h3>Select Your Doctor</h3>
+<div class="flex-me">
+    <div ng-repeat="docs in docStuff" class="size-me">
+        <div><strong>Dr. {{docs.first_name}} {{docs.last_name}}</strong>
+            <p>Specialty: {{docs.speciality}}</p>
+            <a ng-href="#!/patients/{{docs.last_name}}"><button>Patient List</button></a>
+        </div>
+    </div>
+</div>

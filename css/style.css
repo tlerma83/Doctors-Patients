@@ -1,0 +1,8 @@
+.flex-me {
+    display: flex;
+    justify-content: center;
+}
+
+.size-me {
+    width: 30%;
+}
